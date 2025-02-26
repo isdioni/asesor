@@ -40,7 +40,7 @@ $(document).ready(function() {
 { materia: "Software de aplicación ejecutivo",profesor: "Rosa Castañeda Monárrez",correo:"rosa.cm@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 15:00 a 16:00",lugar:"Cubículo No. 6  Sistemas y Computación"},	
 { materia: "Taller de Sistemas Operativos",profesor: "Noé Ramón Rosales Morales",correo:"noe.rm@cdjuarez.tecnm.mx",horario:"Lunes y Martes 12:00-13:00",lugar:"Cubículo CA Sistemas y Computación"},	
 { materia: "Tópicos avanzados de programación",profesor: "Anita Loya Lozoya",correo:"anita.ll@cdjuarez.tecnm.mx",horario:"Lunes a jueves 9 a 10 hrs y Lunes a viernes de 14 a 15 hrs",lugar:"Sala de maestros 700´s Cubículo de sistemas"},	
-{ materia: "Virtualizacion",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700´s"}
+{ materia: "Virtualizacion",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700's"}
 
 
        
