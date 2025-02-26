@@ -39,7 +39,7 @@ $(document).ready(function() {
 		{ materia: "Taller de Sistemas Operativos",profesor: "Noé Ramón Rosales Morales",correo:"noe.rm@cdjuarez.tecnm.mx",horario:"Lunes y Martes 12:00-13:00",lugar:"Cubículo CA Sistemas y Computación"},
 		{ materia: "Virtualizacion",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700´s"},
 		{ materia: "Fundamentos de base de datos y ",profesor: "Anita Loya Lozoya",correo:"anita.ll@cdjuarez.tecnm.mx",horario:"Lunes a jueves 9 a 10 hrs y Lunes a viernes de 14 a 15 hrs",lugar:"Sala de maestros 700´s Cubículo de sistemas"},
-		{ materia: "Tópicos avanzados de programación",profesor: "Anita Loya Lozoya",correo:"anita.ll@cdjuarez.tecnm.mx",horario:"Lunes a jueves 9 a 10 hrs y Lunes a viernes de 14 a 15 hrs",lugar:"Sala de maestros 700´s Cubículo de sistemas"},
+		{ materia: "Tópicos avanzados de programación",profesor: "Anita Loya Lozoya",correo:"anita.ll@cdjuarez.tecnm.mx",horario:"Lunes a jueves 9 a 10 hrs y Lunes a viernes de 14 a 15 hrs",lugar:"Sala de maestros 700´s Cubículo de sistemas"}
 
        
     ];
