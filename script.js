@@ -1,46 +1,60 @@
 $(document).ready(function() {
     const asesorias = [
-{ materia: "Administración de redes",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700´s"},	
-{ materia: "Algoritmos y Leng. de Programación",profesor: "Dionisio Navarrete Baloés",correo:"dionisio.nb@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 11:00 a 12:00 hrs",lugar:"Sala de maestros 100's"},	
-{ materia: "Algoritmos y Leng. de Programación",profesor: "Flora M. Trejo C.",correo:"flora.tc@cdjuarez.tecnm.mx",horario:"L - J 9 a 10 a.m.   Viernes 8 a 10 a.m",lugar:"L - J  Sala de Maestros 100´s  /   Viernes Cubículo Sistemas"},	
-{ materia: "Algoritmos y Leng. de Programación",profesor: "Martha Araceli Castañeda Parra",correo:"martha.cp@cdjuarez.tecnm.mx",horario:"Lunes a Viernes   de 13:00 a 14:00 ",lugar:"Sala de maestros 700´s"},	
-{ materia: "Algoritmos y Programación",profesor: "Dionisio Navarrete Baloés",correo:"dionisio.nb@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 11:00 a 12:00 hrs",lugar:"Sala de maestros 100's"},	
-{ materia: "Arquitectura de Computadoras",profesor: "Flora M. Trejo C.",correo:"flora.tc@cdjuarez.tecnm.mx",horario:"L - J 9 a 10 a.m.   Viernes 8 a 10 a.m",lugar:"L - J  Sala de Maestros 100´s  /   Viernes Cubículo Sistemas"},	
-{ materia: "Base de Datos para Ing. Logística",profesor: "Elisa Dania Molina Portillo",correo:"elisa.mp@cdjuarez.tecnm.mx",horario:"Viernes 11:00 a 12:00 hrs",lugar:"Sala de maestros 700´s"},	
-{ materia: "Base de Datos para Ing. Logística",profesor: "Martha Araceli Castañeda Parra",correo:"martha.cp@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 13:00 a 14:00 ",lugar:"Sala de maestros 700´s"},	
-{ materia: "Conmutacion",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700´s"},	
-{ materia: "Estructura de Datos",profesor: "Diana Angélica Bañuelos Delgado",correo:"diana.bd@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 11:00 a 12:00 hrs",lugar:"Sala de maestros 100's"},	
-{ materia: "Estructura de Datos",profesor: "María Eugenia Sánchez Leal",correo:"maria.sl@cdjuarez.tecnm.mx",horario:"Lunes a Viernes  de 14:00 a 15:00 ",lugar:"Cubículo No. 6 Sistemas y Computación"},	
-{ materia: "Fundamentos de base de datos y ",profesor: "Anita Loya Lozoya",correo:"anita.ll@cdjuarez.tecnm.mx",horario:"Lunes a jueves 9 a 10 hrs y Lunes a viernes de 14 a 15 hrs",lugar:"Sala de maestros 700´s Cubículo de sistemas"},	
-{ materia: "Fundamentos de Bases de datos",profesor: "Flora M. Trejo C.",correo:"flora.tc@cdjuarez.tecnm.mx",horario:"L - J  9 a 10 a.m.  Viernes 8 a 10 a.m.",lugar:"L - J  Sala de Maestros 100´s  /   Viernes Cubículo Sistemas"},	
-{ materia: "Fundamentos de Bases de datos",profesor: "Rosa Castañeda Monárrez",correo:"rosa.cm@cdjuarez.tecnm.mx",horario:"Lunes a Viernes  de 15:00 a 16:00",lugar:"Cubículo No. 6  Sistemas y Computación"},	
-{ materia: "Fundamentos de Ciberseguridad",profesor: "José Hilario Partida Torres",correo:"jose.pt@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 15:00 a 17:00 horas",lugar:"Sala multimeda"},	
-{ materia: "Fundamentos de Programacion",profesor: "Ludivina Toral Aguilar",correo:"ludivina.ta@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 10:00 a 11:00",lugar:"Sala de maestros 700´s"},	
-{ materia: "Fundamentos de Programación",profesor: "María Eugenia Sánchez Leal",correo:"maria.sl@cdjuarez.tecnm.mx",horario:"Lunes a Viernes  de 14:00 a 15:00 ",lugar:"Cubículo No. 6  Sistemas y Computación"},	
-{ materia: "Gestion de proyectos de software",profesor: "Margarita Bailon Estrada",correo:"margarita.be@cdjuarez.tecnm.mx",horario:"Viernes 18:00 a 19:00",lugar:"Cubiculo 1 Ed Guillot"},	
-{ materia: "Graficación",profesor: "Noé Ramón Rosales Morales",correo:"noe.rm@cdjuarez.tecnm.mx",horario:"Miercoles y Jueves 12:00-13:00",lugar:"Cubículo CA Sistemas y Computación"},	
-{ materia: "Informática para la Administración",profesor: "Claudia Anglés Barrios",correo:"claudia.ab@cdjuarez.tecnm.mx",horario:"Viernes 13:00 a 14:00 hrs",lugar:"Sala de maestros 700´s"},	
-{ materia: "Informática para la Administración",profesor: "Rosa Castañeda Monárrez",correo:"rosa.cm@cdjuarez.tecnm.mx",horario:"Viernes 10:00-11:00",lugar:"Cubículo No. 6  Sistemas y Computación"},	
-{ materia: "Ingeniería de Software",profesor: "Magarita Bailon Estrada",correo:"margarita.be@cdjuarez.tecnm.mx",horario:"Viernes 13:00 a 14:00 hrs",lugar:"Cubiculo 1 Ed Guillot"},	
-{ materia: "Introducción a la programación",profesor: "Dionisio Navarrete Baloés",correo:"dionisio.nb@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 11:00 a 12:00 hrs",lugar:"Sala de maestros 100's"},	
-{ materia: "Lenguajes Y Autómatas I",profesor: "Diana Angélica Bañuelos Delgado",correo:"diana.bd@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 11:00 a 12:00 hrs",lugar:"Sala de maestros 100's"},	
-{ materia: "Matemáticas Discretas",profesor: "Diana Angélica Bañuelos Delgado",correo:"diana.bd@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 11:00 a 12:00 hrs",lugar:"Sala de maestros 100's"},	
-{ materia: "Matemáticas Discretas Ii ",profesor: "Diana Angélica Bañuelos Delgado",correo:"diana.bd@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 11:00 a 12:00 hrs",lugar:"Sala de maestros 100's"},	
-{ materia: "Prog. Estructurada",profesor: "Elisa Dania Molina Portillo",correo:"elisa.mp@cdjuarez.tecnm.mx",horario:"Viernes 13:00 a 14:00 hrs",lugar:"Sala de maestros 700´s"},	
-{ materia: "Programación",profesor: "Elisa Dania Molina Portillo",correo:"elisa.mp@cdjuarez.tecnm.mx",horario:"Viernes 13:00 a 14:00 hrs",lugar:"Sala de maestros 700´s"},	
-{ materia: "Programación Básica",profesor: "Elisa Dania Molina Portillo",correo:"elisa.mp@cdjuarez.tecnm.mx",horario:"Viernes 13:00 a 14:00 hrs",lugar:"Sala de maestros 700´s"},	
-{ materia: "Programación Básica",profesor: "María Eugenia Sánchez Leal",correo:"maria.sl@cdjuarez.tecnm.mx",horario:"Lunes a Viernes   de 14:00 a 15:00 ",lugar:"Cubículo No. 6 Sistemas y Computación"},	
-{ materia: "Programación II",profesor: "Flora M. Trejo C.",correo:"flora.tc@cdjuarez.tecnm.mx",horario:"L - J 9 a 10 a.m. Viernes 8 a 10 a.m",lugar:"L - J  Sala de Maestros 100´s  /   Viernes Cubículo Sistemas"},	
-{ materia: "Programación Orientada a Objetos",profesor: "Claudia Anglés Barrios",correo:"claudia.ab@cdjuarez.tecnm.mx",horario:"Lunes 8:00 a 9:00",lugar:"Sala de maestros 700´s"},	
-{ materia: "Programación Orientada a Objetos",profesor: "María Eugenia Sánchez Leal",correo:"maria.sl@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00 ",lugar:"Cubículo No. 6 Sistemas y Computación"},	
-{ materia: "Redes de computadoras",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700´s"},	
-{ materia: "Redes de Computadoras Tic’s",profesor: "Hector Alfredo sanchez sanchez",correo:"hector.ss@cdjuarez.tecnm.mx",horario:"Viernes 14:00 a 15:00",lugar:"Sala de maestros 700´s"},	
-{ materia: "Redes Emergentes",profesor: "José Hilario Partida Torres",correo:"jose.pt@cdjuarez.tecnm.mx",horario:"Lunes a Viernes 15:00 a 17:00 horas",lugar:"Sala multimeda"},	
-{ materia: "Software de aplicación ejecutivo",profesor: "Claudia Anglés Barrios",correo:"claudia.ab@cdjuarez.tecnm.mx",horario:"Lunes  9:00 a 10:00 hrs",lugar:"Sala de maestros 700´s"},	
-{ materia: "Software de aplicación ejecutivo",profesor: "Rosa Castañeda Monárrez",correo:"rosa.cm@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 15:00 a 16:00",lugar:"Cubículo No. 6  Sistemas y Computación"},	
-{ materia: "Taller de Sistemas Operativos",profesor: "Noé Ramón Rosales Morales",correo:"noe.rm@cdjuarez.tecnm.mx",horario:"Lunes y Martes 12:00-13:00",lugar:"Cubículo CA Sistemas y Computación"},	
-{ materia: "Tópicos avanzados de programación",profesor: "Anita Loya Lozoya",correo:"anita.ll@cdjuarez.tecnm.mx",horario:"Lunes a jueves 9 a 10 hrs y Lunes a viernes de 14 a 15 hrs",lugar:"Sala de maestros 700´s Cubículo de sistemas"},	
-{ materia: "Virtualizacion",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700's"}
+{ materia: "Administración de redes",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700´s"},
+"{materia: ""Algoritmos y Lenguajes de Programación"",profesor:""Dionisio Navarrete Baloes"",correo:""dionisio.nb@cdjuarez.tecnm.mx"",horario:""Lunes a Viernes 
+10:00 a 11:00 hrs"",lugar:""Edificio de Sistemas Cubículo 9""},"
+"{materia: "" Fundamentos de Base de Datos"",profesor:""Dionisio Navarrete Baloes"",correo:""dionisio.nb@cdjuarez.tecnm.mx"",horario:""Lunes a Viernes 
+10:00 a 11:00 hrs"",lugar:""Edificio de Sistemas Cubículo 9""},"
+"{materia: ""Taller de Ingenieria de Software"",profesor:""Dionisio Navarrete Baloes"",correo:""dionisio.nb@cdjuarez.tecnm.mx"",horario:""Lunes a Viernes 
+10:00 a 11:00 hrs"",lugar:""Edificio de Sistemas Cubículo 9""},"
+"{materia: ""Fundamentos de programación
+"",profesor:""Verónica Farías Veloz"",correo:""veronica.fv@cdjuarez.tecnm.mx "",horario:""martes y jueves 
+10:00 a 12:00"",lugar:""Edificio de Sistemas, Cubículo 2""},"
+"{materia: ""Programación Orientada a Objetos "",profesor:""Verónica Farías Veloz"",correo:""veronica.fv@cdjuarez.tecnm.mx "",horario:""martes y jueves 
+10:00 a 12:00"",lugar:""Edificio de Sistemas, Cubículo 2""},"
+"{materia: ""Estructura de Datos"",profesor:""Verónica Farías Veloz"",correo:""veronica.fv@cdjuarez.tecnm.mx "",horario:""martes y jueves 
+10:00 a 12:00"",lugar:""Edificio de Sistemas, Cubículo 2""},"
+{materia: "Lenguajes y autómatas 2",profesor:"Rosa Castañeda",correo:"rosa.cm@cdjuarez.tecnm.mx",horario:"viernes 4 pm",lugar:"Edificio de Sistemas, Cubículo 6"},
+{materia: "Lenguajes y autómatas 1",profesor:"Rosa Castañeda",correo:"rosa.cm@cdjuarez.tecnm.mx",horario:"jueves 4 pm",lugar:"Edificio de Sistemas, Cubículo 6"},
+{materia: "Cultura empresarial",profesor:"Rosa Castañeda",correo:"rosa.cm@cdjuarez.tecnm.mx",horario:"miércoles 4 pm",lugar:"Edificio de Sistemas, Cubículo 6"},
+"{materia: ""Interaccion Humano Computadora"",profesor:""José Hilario Partida"",correo:""jose.pt@cdjuarez.tecnm.mx"",horario:""Lunes a Miercoles 
+11:00 a 12:00 hrs"",lugar:""Multimedia""},"
+"{materia: ""Administración Seguridad de Redes"",profesor:""José Hilario Partida"",correo:""jose.pt@cdjuarez.tecnm.mx"",horario:""Jueves a Viernes 
+11:00 a 12:00 hrs"",lugar:""Multimedia""},"
+"{materia: ""Administración de Bases de Datos"",profesor:""Juan Carlos Pizarro Martínez"",correo:""juan.pm@cdjuarez.tecnm.mx"",horario:""Lunes a Viernes
+14:00 a 15:00 hrs"",lugar:""Centro de Cómputo""},"
+"{materia: ""Bases de Datos Distribuidas"",profesor:""Juan Carlos Pizarro Martínez"",correo:""juan.pm@cdjuarez.tecnm.mx"",horario:""Lunes a Viernes
+14:00 a 15:00 hrs"",lugar:""""},"
+"{materia: ""Fundamentos de programación"",profesor:""Elisa Dania Molina Portillo"",correo:""elisa.mp@cdjuarez.tecnm.mx
+dmolina@itcj.edu.mx"",horario:""Viernes
+14:00 a 16:00 hrs"",lugar:""Edificio de Sistemas, Cubículo 3""},"
+"{materia: ""
+Introducción a la Programación
+"",profesor:""Elisa Dania Molina Portillo"",correo:""elisa.mp@cdjuarez.tecnm.mx
+dmolina@itcj.edu.mx"",horario:""Viernes
+14:00 a 16:00 hrs"",lugar:""Edificio de Sistemas, Cubículo 3""},"
+"{materia: ""Administración y técnicas de Manto."",profesor:""Elisa Dania Molina Portillo"",correo:""elisa.mp@cdjuarez.tecnm.mx
+dmolina@itcj.edu.mx"",horario:""Viernes
+14:00 a 16:00 hrs"",lugar:""Edificio de Sistemas, Cubículo 3""},"
+{materia: "Algoritmos y Lenguajes de Programación",profesor:"Flora Mayela Trejo Castillo",correo:"flora.tc@cdjuarez.tecnm.mx",horario:"Lunes a Jueves 11:00-12:00     Viernes 13:00-14:00",lugar:"Edificio de Sistemas, Cubículo 4"},
+{materia: " Arquitectura de Comptuadoras",profesor:"Flora Mayela Trejo Castillo",correo:"flora.tc@cdjuarez.tecnm.mx",horario:"Lunes a Jueves 11:00-12:00     Viernes 13:00-14:00",lugar:"Edificio de Sistemas, Cubículo 4"},
+{materia: "Algoritmos y Programación",profesor:"Flora Mayela Trejo Castillo",correo:"flora.tc@cdjuarez.tecnm.mx",horario:"Lunes a Jueves 11:00-12:00     Viernes 13:00-14:00",lugar:"Edificio de Sistemas, Cubículo 4"},
+{materia: "Redes de Computadoras",profesor:"Hector Alfredo Sanchez Sanchez",correo:"hector.ss@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 13:00 a 14:00",lugar:"Sistemas y Computación"},
+{materia: "Programación Orientada a Objetos ",profesor:"María Eugenia Sánchez Leal",correo:"maria.sl@cdjuarez.tecnm.mx",horario:"Lunes a  Viernes de 14:00 a 15:00",lugar:"Edificio de Sistemas, Cubículo 6"},
+{materia: "Estructura de Datos",profesor:"María Eugenia Sánchez Leal",correo:"maria.sl@cdjuarez.tecnm.mx",horario:"Lunes a  Viernes de 14:00 a 15:00",lugar:"Edificio de Sistemas, Cubículo 6"},
+{materia: "Programación Básica",profesor:"María Eugenia Sánchez Leal",correo:"maria.sl@cdjuarez.tecnm.mx",horario:"Lunes a  Viernes de 14:00 a 15:00",lugar:"Edificio de Sistemas, Cubículo 6"},
+{materia: "Fundamentos de Programación",profesor:"María Eugenia Sánchez Leal",correo:"maria.sl@cdjuarez.tecnm.mx",horario:"Lunes a  Viernes de 14:00 a 15:00",lugar:"Edificio de Sistemas, Cubículo 6"},
+{materia: "Desarrollo de Aplicaciones para Dispositivos Móviles",profesor:"Jaime Alonso Ramos Silva",correo:"jaime.rs@cdjuarez.tecnm.mx",horario:"Lunes a Viernes15:00 a 16:00 hrs.",lugar:"Cubículo 2 - Edificion Guillot"},
+{materia: "Seguridad Informática",profesor:"Jaime Alonso Ramos Silva",correo:"jaime.rs@cdjuarez.tecnm.mx",horario:"Lunes a Viernes15:00 a 16:00 hrs.",lugar:"Cubículo 2 - Edificion Guillot"},
+{materia: "Diseño y Desarrollo de Aplicaciones Móviles ReactivaS",profesor:"Jaime Alonso Ramos Silva",correo:"jaime.rs@cdjuarez.tecnm.mx",horario:"Lunes a Viernes15:00 a 16:00 hrs.",lugar:"Cubículo 2 - Edificion Guillot"},
+{materia: "Desarrollo de Aplicaciones Web Reactivas",profesor:"Jaime Alonso Ramos Silva",correo:"jaime.rs@cdjuarez.tecnm.mx",horario:"Lunes a Viernes15:00 a 16:00 hrs.",lugar:"Cubículo 2 - Edificion Guillot"},
+{materia: "Fundamentos de Proggramación / Sistemas Operativos",profesor:"Gallegos Borunda Alma Patricia",correo:"alma.gb@cdjuarez.tecnm.mx",horario:"lunes de 11:00 a 12:00 pm",lugar:"Edificio de Sistemas, Cubículo 6"},
+{materia: "Sistemas Operativos",profesor:"Gallegos Borunda Alma Patricia",correo:"alma.gb@cdjuarez.tecnm.mx",horario:"lunes de 11:00 a 12:00 pm",lugar:"Edificio de Sistemas, Cubículo 6"},
+{materia: "Programación",profesor:"Anita Loya Lozoya",correo:"anita.ll@cdjuarez.tecnm.mx",horario:"Lunes a viernes 12:00 a 13:00",lugar:"Edificio de Sistemas, Cubículo 4"},
+{materia: "Programación Web",profesor:"",correo:"",horario:"",lugar:""},
+{materia: "Tópicos avanzados de programación",profesor:"",correo:"",horario:"",lugar:""},
+{materia: "Graficación",profesor:"Noé Ramón Rosales Morales",correo:"noe@cdjuarez.tecnm.mx",horario:"Viernes 9-13",lugar:"Cubiculo Depto Sistemas y Computación"},
+{materia: " Taller de Sistemas Operativos",profesor:"Noé Ramón Rosales Morales",correo:"noe@cdjuarez.tecnm.mx",horario:"Viernes 9-13",lugar:"Cubiculo Depto Sistemas y Computación"}
 
 
        
