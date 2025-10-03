@@ -1,6 +1,5 @@
 $(document).ready(function() {
     const asesorias = [
-{ materia: "Administración de redes",profesor: "Marisela Palacios Reyes",correo:"marisela.pr@cdjuarez.tecnm.mx",horario:"Lunes a Viernes de 14:00 a 15:00",lugar:"Sala de maestros 700´s"},
 "{materia: ""Algoritmos y Lenguajes de Programación"",profesor:""Dionisio Navarrete Baloes"",correo:""dionisio.nb@cdjuarez.tecnm.mx"",horario:""Lunes a Viernes 
 10:00 a 11:00 hrs"",lugar:""Edificio de Sistemas Cubículo 9""},"
 "{materia: "" Fundamentos de Base de Datos"",profesor:""Dionisio Navarrete Baloes"",correo:""dionisio.nb@cdjuarez.tecnm.mx"",horario:""Lunes a Viernes 
@@ -55,6 +54,7 @@ dmolina@itcj.edu.mx"",horario:""Viernes
 {materia: "Tópicos avanzados de programación",profesor:"",correo:"",horario:"",lugar:""},
 {materia: "Graficación",profesor:"Noé Ramón Rosales Morales",correo:"noe@cdjuarez.tecnm.mx",horario:"Viernes 9-13",lugar:"Cubiculo Depto Sistemas y Computación"},
 {materia: " Taller de Sistemas Operativos",profesor:"Noé Ramón Rosales Morales",correo:"noe@cdjuarez.tecnm.mx",horario:"Viernes 9-13",lugar:"Cubiculo Depto Sistemas y Computación"}
+
 
 
        
