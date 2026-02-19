@@ -1,6 +1,6 @@
 $(document).ready(function() {
     const asesorias = [
-         {materia: "Algoritmos y Lenguajes de Programación", profesor: "Dionisio Navarrete Baloes dionisio.nb@cdjuarez.tecnm.mx", horario: "Lunes a Viernes 10:00 a 11:00 hrs", lugar: "Edificio de Sistemas Cubículo 9"}
+         {materia: "Algoritmos y Lenguajes de Programación", profesor: "Dionisio Navarrete Baloes\n dionisio.nb@cdjuarez.tecnm.mx", horario: "Lunes a Viernes 10:00 a 11:00 hrs", lugar: "Edificio de Sistemas Cubículo 9"}
        
        
 
@@ -15,7 +15,7 @@ $(document).ready(function() {
                 <tr>
                     <td>${a.materia}</td>
                     <td>${a.profesor}</td>
-                    <td>${a.correo}</td>
+                    
                     <td>${a.horario}</td>
                     <td>${a.lugar}</td>
                 </tr>
