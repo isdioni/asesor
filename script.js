@@ -1,6 +1,7 @@
 $(document).ready(function() {
     const asesorias = [
-        {materia: "Algoritmos y Lenguajes de Programación"}
+         {materia: "Algoritmos y Lenguajes de Programación", profesor: "Dionisio Navarrete Baloes", correo: "dionisio.nb@cdjuarez.tecnm.mx", horario: "Lunes a Viernes 10:00 a 11:00 hrs", lugar: "Edificio de Sistemas Cubículo 9"}
+       
        
 
 
