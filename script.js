@@ -15,7 +15,7 @@ $(document).ready(function() {
                 <tr>
                     <td>${a.materia}</td>
                     <td>${a.profesor}</td>
-                    
+                     <td>${a.correo}</td>
                     <td>${a.horario}</td>
                     <td>${a.lugar}</td>
                 </tr>
