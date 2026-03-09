@@ -3,7 +3,7 @@ $(document).ready(function() {
         
 {materia: "Administración de Base de Datos", profesor: "Dionisio Navarrete Baloes dionisio.nb@cdjuarez.tecnm.mx",horario: "Lunes a Jueves 8:00 a 9:00 hrs, Viernes de 11:00 a 12:00",lugar:"Edificio de Sistemas Cubiculo 9"},
 {materia: "Administración de Base de Datos", profesor: "Juan Carlos Pizarro Martínez juan.pm@cdjuarez.tecnm.mx",horario: "Lunes a Viernes 14:00 a 15:00 hrs",lugar:"Centro de Cómputo"},
-{materia: "Administración de Proyectos ", profesor: "Margarita Bailon Estrada Margarita Bailon Estrada",horario: "Margarita Bailon Estrada",lugar:"Cubiculo 1 Ed Guillot"},
+{materia: "Administración de Proyectos ", profesor: "Margarita Bailon Estrada Margarita Bailon Estrada",horario: "De lunes a viernes de 12:00 a 13:00",lugar:"Cubiculo 1 Ed Guillot"},
 {materia: "Administración y Tecnicas de Mantenimiento", profesor: "Elisa Dania Molina Portillo elisa.mp@cdjuarez.tecnm.mx",horario: "Miercoles y Viernes 14:00 a 15:00 hrs",lugar:"Edificio de Sistemas Cubiculo 1"},
 {materia: "Algoritmos y Lenguajes de programacion", profesor: "GALLEGOS BORUNDA ALMA PATRICIA alma.gb@cdjuarez.tecnm.mx",horario: "Martes 8:00 a 9:00 am",lugar:"Cubiculo 6  DSC"},
 {materia: "Algoritmos y Programación", profesor: "Elisa Dania Molina Portillo elisa.mp@cdjuarez.tecnm.mx",horario: "Miercoles y Viernes 14:00 a 15:00 hrs",lugar:"Edificio de Sistemas Cubiculo 1"},
@@ -32,9 +32,18 @@ $(document).ready(function() {
 {materia: "Sistemas Operativos", profesor: "GALLEGOS BORUNDA ALMA PATRICIA alma.gb@cdjuarez.tecnm.mx",horario: "Martes 8:00 a 9:00 am",lugar:"Cubiculo 6  DSC"},
 {materia: "Sistemas programables", profesor: "Dora Ivette Rivero Caraveo dora.rc@cdjuarez.tecnm.mx",horario: "Lunes a Jueves 11:00 a 12:00",lugar:"NCIE"},
 {materia: "Taller de Base de Datos", profesor: "Juan Carlos Pizarro Martínez juan.pm@cdjuarez.tecnm.mx",horario: "Lunes a Viernes 14:00 a 15:00 hrs",lugar:"Centro de Cómputo"},
-{materia: "Taller de investigación II", profesor: "Margarita Bailon Estrada Margarita Bailon Estrada",horario: "Margarita Bailon Estrada",lugar:"Cubiculo 1 Ed Guillot"},
+{materia: "Taller de investigación II", profesor: "Margarita Bailon Estrada Margarita Bailon Estrada",horario: "De lunes a viernes de 12:00 a 13:00",lugar:"Cubiculo 1 Ed Guillot"},
 {materia: "Topicos Avanzados de programacion", profesor: "Verónica Farías Veloz veronica.fv@cdjuarez.tecnm.mx",horario: "lunes a jueves 7-8 y 10-11",lugar:"Cubiculo 2 Depto Sistemas"},
-{materia: "Tópicos avanzados de programación", profesor: "Anita Loya Lozoya anita.ll@cdjuarez.tecnm.mx",horario: "Lunes a Viernes 12:00 a 13:00 y 15:00 a 16:00",lugar:"Cubículo 4 / Sala maestros 100's"}
+{materia: "Tópicos avanzados de programación", profesor: "Anita Loya Lozoya anita.ll@cdjuarez.tecnm.mx",horario: "Lunes a Viernes 12:00 a 13:00 y 15:00 a 16:00",lugar:"Cubículo 4 / Sala maestros 100's"},
+{materia: "Diseño y Desarrollo de Aplicaciones Móviles Reactivas", profesor: "Jaime Alonso Ramos Silva jaime.rs@cdjuarez.tecnm.mx",horario: "Lunes a Viernes, 19:00 - 20:00 hrs.",lugar:"Cubículo 2, Edificio Guillot"},
+{materia: "Fundamentos de Tecnologías Digitales", profesor: "Jaime Alonso Ramos Silva jaime.rs@cdjuarez.tecnm.mx",horario: "Lunes a Viernes, 19:00 - 20:00 hrs.",lugar:"Cubículo 2, Edificio Guillot"},
+{materia: "Fundamentos de Ciberseguridad", profesor: "Jaime Alonso Ramos Silva jaime.rs@cdjuarez.tecnm.mx",horario: "Lunes a Viernes, 19:00 - 20:00 hrs.",lugar:"Cubículo 2, Edificio Guillot"},
+{materia: "Seguridad Informática, Prevensión y Protección", profesor: "Jaime Alonso Ramos Silva jaime.rs@cdjuarez.tecnm.mx",horario: "Lunes a Viernes, 19:00 - 20:00 hrs.",lugar:"Cubículo 2, Edificio Guillot"},
+{materia: "Redes Emergentes", profesor: "Hector Alfredo Sanchez Sanchez hector.ss@cdjuarez.tecnm.mx",horario: "Lunes y Miercoles 15:00 a 16:00 hrs",lugar:"Sala de Maestros Ramon Rivera"},
+{materia: "Fundamentos de Inteligencia Artificial", profesor: "Hector Alfredo Sanchez Sanchez hector.ss@cdjuarez.tecnm.mx",horario: "Martes y Jueves 15:00 a 16:00 hrs",lugar:"Sala de Maestros Ramon Rivera"},
+{materia: "Estructura de Datos", profesor: "Martha Araceli Castañeda parra martha.cp@cdjuarez.tecnm.mx",horario: "Lunes a Viernes 12:00 a 13:00 ",lugar:"Cubiculo 6  DSC"},
+{materia: "POO", profesor: "Martha Araceli Castañeda parra martha.cp@cdjuarez.tecnm.mx",horario: "Lunes a Viernes 12:00 a 13:00 ",lugar:"Cubiculo 6  DSC"}
+        
 
 
 
